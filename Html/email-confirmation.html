@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleSource - Home </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class =confirmation-page>
+    <header>
+        <nav>
+            <div class="logo"><i>SimpleSource</i></div>
+            <ul>
+                <li><a href="homeindex.html" >Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="volunteer-signin.html" class="active">Volunteering</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="confirmation-box">
+            <i class="fas fa-envelope"></i>
+            <h1>Welcome to SimpleSource!</h1>
+            <p>A verification email has been sent to your inbox. Please check your email and click on the link provided to complete your Volunteer Account Registration.</p>
+            <button id="resendEmail" class="resend-button">Resend Verification Email</button>
+            <p id="error-message" class="error-message"></p>
+        </div>
+    </main>
+
+    <footer class="contact-section">
+        <div class="contact-box">
+            <h2>Contact us at: <i>simplesource19@gmail.com</i></h2>
+        </div>
+    </footer>
+<script type="module" src="script.js"></script>
+<script type = module src="auth.js"></script>
+<script type = module src="firebase-config.js"></script>
+</body>
+</html>

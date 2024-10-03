@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleSource - Volunteer Sign In</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><i>SimpleSource</i></div>
+            <ul>
+                <li><a href="homeindex.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="volunteer-signin.html" class="active">Volunteering</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content-wrapper">
+        <div class="left-content">
+            <h1 class="SignUpStart">Sign Up to Start Volunteering with Us!</i></h1>
+            <form class="signin-form">
+                <div class="form-group">
+                    <label for="email">Email<span class="required">*</span></label>
+                    <input type="email" id="email1" name="email1" placeholder="Enter your email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password<span class="required">*</span></label>
+                    <input type="password" id="password1" name="password1" placeholder="Enter your password" required>
+                    <span class="password-toggle" id="passwordToggle">
+                        <i class="fas fa-eye"></i>
+                    </span>
+                </div>
+                <button type="submit" class="btn-signup">Sign Up</button>
+            </form>
+            <p class="signup-prompt">
+                <strong>Already have an account?</strong> <a href="volunteer-signin2.html" class="signup-link"> Sign in here!</a>
+            </p>
+        </div>
+        <div class="right-image2"></div>
+    </main>
+    <footer class="contact-section">
+        <div class="contact-box">
+            <h2>Contact us at: <i>simplesource19@gmail.com</i></h2>
+        </div>
+    </footer>
+<script type = module src="script.js"></script>
+<script type = module src="auth.js"></script>
+<script type = module src="firebase-config.js"></script>
+</body>
+</html>
